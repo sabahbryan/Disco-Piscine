@@ -8,5 +8,5 @@ while i > 0:
     text = input()
     if text == "STOP":
         break
-    print(f"I got that! Anything else? : {text}")
+    print(f"I got that! Anything else? : ", end = "")
     i += 1
