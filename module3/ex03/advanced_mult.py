@@ -2,6 +2,10 @@
 
 i = 0
 
+# i = row
+# j = column
+# k = result
+
 while i <= 10:
     print(f"Table of {i}:", end = " ")
     j = 0
