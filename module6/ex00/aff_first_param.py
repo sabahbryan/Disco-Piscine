@@ -2,5 +2,7 @@
 
 import sys
 
-# index starts at '0', the program's name
-print(sys.argv[1])
+if len(sys.argv) <= 1:
+    print("none")
+else:
+    print(sys.argv[1]) # index starts at '0', the program's name
