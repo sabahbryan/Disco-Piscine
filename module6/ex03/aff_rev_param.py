@@ -7,14 +7,14 @@ import sys
 
 # start at '1' to ignore "parameters.py" when "print()"
 # use '-1' to ignore "parameters.py" when reversing
-i = 1
+#i = 1
 j = len(sys.argv) - 1
 
 if len(sys.argv) <= 2:
     print("none")
 else:
-    while i < len(sys.argv):
-        i += 1
+    #while i < len(sys.argv):
+    #    i += 1
     while j > 0:
         print(sys.argv[j])
-        j-= 1
+        j -= 1
