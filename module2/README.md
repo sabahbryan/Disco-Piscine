@@ -1,4 +1,4 @@
-ex00: iszero.py
-ex01: isneg.py
-ex02: password.py
+ex00: iszero.py<br />
+ex01: isneg.py<br />
+ex02: password.py<br />
 ex03: mult.py
